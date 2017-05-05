@@ -1,6 +1,7 @@
-size(480, 120);
+size(550, 120);
 smooth();
 strokeWeight(12);
+ellipse(500, 58, 70, 70);
 strokeJoin(ROUND);
 rect(40, 25, 70, 70);
 strokeJoin(BEVEL);
@@ -9,4 +10,3 @@ strokeCap(SQUARE);
 line(270, 25, 340, 95);
 strokeCap(ROUND);
 line(350, 25, 420, 95);
-ellipse(440, 40, 35, 35);

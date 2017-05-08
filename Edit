@@ -1,8 +1,10 @@
 size(550, 120);
 smooth();
 strokeWeight(12);
+ellipseMode(CENTER);
 ellipse(500, 58, 70, 70);
 strokeJoin(ROUND);
+rectMode(CORNER);
 rect(40, 25, 70, 70);
 strokeJoin(BEVEL);
 rect(140, 25, 70, 70);
